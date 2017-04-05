@@ -27,7 +27,6 @@ class KnownValues(unittest.TestCase):
         expected = -11
         self.assertEqual(expected, result)
 
-    # Add minimum of 5 more unittests
     def test_calculateWindchill_forLowWind_ExtremeLowTemp(self):
         result = WindchillCalculator.calculateWindchill(5, -45)
         expected = -63
