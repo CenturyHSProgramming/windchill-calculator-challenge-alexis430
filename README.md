@@ -4,8 +4,8 @@ A Python 3 Math challenge using unit tests.
 **Inputs:**
 ----------
 * **calculateWindchill()** receives two inputs (both integers):
-  1). receives wind as an integer
-  2). receives temperature as an integer
+  * (1st input) receives wind as an integer
+  * (2nd input) receives temperature as an integer
 
 **Outputs:**
 ------------
