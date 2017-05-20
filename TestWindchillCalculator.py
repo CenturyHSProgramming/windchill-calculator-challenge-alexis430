@@ -59,7 +59,7 @@ class KnownValues(unittest.TestCase):
 
     def test_calculateWindchill_forHighWind_ExtremeTemp(self):
         result = WindchillCalculator.calculateWindchill(55, -40)
-        expected = -97
+        expected = -89
         self.assertEqual(expected, result)
 
 
