@@ -13,7 +13,7 @@ import unittest
 import WindchillCalculator
 
 class KnownValues(unittest.TestCase):
-    # Formula for unittest method is:
+    # Formula for unittest method is: 
     # test_functionName_testDescription
 
     def test_calculateWindchill_forLowWind_WarmTemp(self):
